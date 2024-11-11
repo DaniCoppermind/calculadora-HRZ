@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="normalize.css" />
+    <title>Calculadora | Desafio Básico</title>
+  </head>
+  <body>
+    <main class="calculator-container">
+      <div class="buttons-decoration">
+        <div class="button-decoration"></div>
+        <div class="button-decoration"></div>
+        <div class="button-decoration"></div>
+      </div>
+
+      <div class="screen-result">
+        <div class="preview-result"></div>
+        <div id="result"></div>
+      </div>
+
+      <div class="buttons-container">
+        <div class="buttons">
+          <button class="button clear" value="AC">AC</button>
+          <button class="button exp" data-symbol="**">x²</button>
+          <button class="button" data-symbol="/">÷</button>
+        </div>
+
+        <div class="buttons">
+          <button class="button" value="7">7</button>
+          <button class="button" value="8">8</button>
+          <button class="button" value="9">9</button>
+          <button class="button" data-symbol="*">×</button>
+        </div>
+
+        <div class="buttons">
+          <button class="button" value="4">4</button>
+          <button class="button" value="5">5</button>
+          <button class="button" value="6">6</button>
+          <button class="button" data-symbol="-">-</button>
+        </div>
+
+        <div class="buttons">
+          <button class="button" value="1">1</button>
+          <button class="button" value="2">2</button>
+          <button class="button" value="3">3</button>
+          <button class="button" data-symbol="+">+</button>
+        </div>
+
+        <div class="buttons">
+          <button class="button zero" value="0">0</button>
+          <button class="button" value=".">.</button>
+          <button class="button equal" data-symbol="=">=</button>
+        </div>
+      </div>
+    </main>
+    <script src="code.js"></script>
+  </body>
+</html>
