@@ -71,9 +71,7 @@ function showResult() {
   previewResult.textContent = `${values.join(` ${operator} `)}`;
   screen.textContent = result;
 
-  adjustFontSize();
-
-  values = [result];
+  values = [];
   isResultDisplayed = true;
 }
 
