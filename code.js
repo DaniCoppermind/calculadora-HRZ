@@ -74,6 +74,7 @@ function showResult() {
     handleError('Math Error');
   } else {
     previewResult.textContent = formatExpression(values, operators);
+    screen.textContent = result;
   }
 
   values = [];
