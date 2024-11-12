@@ -1,5 +1,3 @@
-// Calculadora JavaScript con corrección del bug de operadores en secuencia
-
 const $ = (el) => document.querySelector(el);
 const $$ = (el) => document.querySelectorAll(el);
 
